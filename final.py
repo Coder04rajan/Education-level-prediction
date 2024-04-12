@@ -61,11 +61,11 @@ X_test = scaler.transform(X_test)
 knn = KNeighborsClassifier() #initialising the knn classifier
 # Define the parameter grid for GridSearchCV to get the accurate hyperparameters
 param_grid = {
-    'n_neighbors': [19,20,21],
+    'n_neighbors': [10,20,30],
     'weights': ['uniform', 'distance'],
     'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'],
     'leaf_size': [10, 20, 30],
-    'p': [1,2,3,4]  # p=1 for Manhattan distance, p=2 for Euclidean distance
+    'p': [1,2]  # p=1 for Manhattan distance, p=2 for Euclidean distance
 }
 
 # Initialize GridSearchCV
