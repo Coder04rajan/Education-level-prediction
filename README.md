@@ -1,6 +1,7 @@
 # cs253-python-assignment
 
 This repository contains the code and data files for the project
+
 **Note:** The file **final.py** is the final code to be submitted and **submission.csv** is the final submitted csv on Kaggle
 
 Below is a brief description of each file in this repository:
