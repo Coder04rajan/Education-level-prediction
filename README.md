@@ -15,6 +15,8 @@ Below is a brief description of each file in this repository:
 7. **code_blocks_models.py**: Contains various models and code blocks used during the development phase before arriving at the final model. The code here can be run by replacing the code in the model block of final.py or validation.py
 8. **requirements.txt**: Text file containing the libraries required to run the project.
 9. **analysis.ipynb**: Python notebook containing the code used to analyse and generate the plots for data analysis
+10. **cs253_python.pdf**: Latex report for the assignment
+11. **Plots**: Folder containing all the data plots used in the report
 
 ## Usage
 
